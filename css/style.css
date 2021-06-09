@@ -72,10 +72,10 @@
 }
 
 /* index page style */
-#index .hero-section {
+.hero-section {
     position: relative;
 }
-#index .page-title {
+.hero-section .page-title {
     position: absolute;
     top: 50%;
     left: 0;
@@ -157,4 +157,13 @@ blockquote cite {
 }
 .service-block p {
     text-align: justify;
+}
+
+.contact-whatsapp .icon a {
+    font-size: 4.38rem;
+    color: #00e676;
+}
+.contact-whatsapp .sub-text {
+    font-size: 1.4rem;
+    color: #4d4d4d;
 }
